@@ -1,0 +1,51 @@
+body{
+    color: #ffffff;
+}
+.header_section {
+    padding: 18px 15px;
+    display: flex;
+    width: 100%;
+
+}
+
+.logo_icon {
+    width: 20%;
+}
+
+.logo {
+    font-family: "Tangerine", serif;
+    color: #ffffff;
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+.list {
+    width: 60%;
+}
+.list_icons{
+    width: 20%;
+}
+
+.list ul,.list_icons ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+.list ul li ,.list_icons ul li{
+    color: #ffffff;
+    list-style: none;
+    font-weight: 600;
+}
+.list ul li:hover ,.list_icons ul li:hover{
+    color: #E69C00;
+    cursor: pointer;
+}
+
+
+.Carousel-slide{
+    padding: 90px 20px;
+}
+.slider_text{
+    padding: 90px 0px;
+
+}
